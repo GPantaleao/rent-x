@@ -46,7 +46,7 @@ export default function CarDetails({ isOpen, closeModal, car, carImage}: CarDeta
                 <Dialog.Panel className="relative w-full max-w-lg max-h-[90vh] overflow-y-auto transform rounded-2xl bg-white py-4 px-6 text-left shadow-xl transition-all flex flex-col gap-5">
                   <button
                     type="button"
-                    className="absolute top-2 right-2 z-10 w-fit p-2 bg-zinc-100 rounded-full"
+                    className="absolute top-2 right-2 z-10 w-fit p-2 bg-white rounded-full"
                     onClick={closeModal}
                   >
                     <AiOutlineClose size={22} className="text-black"/>

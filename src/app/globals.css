@@ -135,7 +135,7 @@
 }
 
 .car-details__close-btn {
-  @apply absolute top-2 right-2 z-10 w-fit p-2 bg-zinc-100 rounded-full;
+  @apply absolute top-2 right-2 z-10 w-fit p-2 bg-white rounded-full;
 }
 
 .car-details__main-image {
